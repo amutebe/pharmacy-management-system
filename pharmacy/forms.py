@@ -193,7 +193,7 @@ class DispenseForm(ModelForm):
     class Meta:
         model=Dispense
         fields='__all__'
-        exclude=['stock_ref_no']
+        #exclude=['stock_ref_no']
         
     #     drug_id = forms.CharField(label="Last Name", max_length=50, widget=forms.TextInput(attrs={"class":"form-control"}))
     # # def updateItem(self,request):
